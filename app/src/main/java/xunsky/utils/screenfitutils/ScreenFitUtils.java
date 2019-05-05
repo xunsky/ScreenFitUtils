@@ -17,7 +17,6 @@ public class ScreenFitUtils {
                 .getUnitsManager()
                 .setSupportDP(false)
                 .setSupportSP(false)
-                .setSupportSubunits(Subunits.PT)
-                .setSupportSubunits(Subunits.MM);
+                .setSupportSubunits(Subunits.PT);
     }
 }
