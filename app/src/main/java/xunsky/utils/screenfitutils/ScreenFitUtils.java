@@ -16,6 +16,8 @@ public class ScreenFitUtils {
         AutoSizeConfig.getInstance()
                 .getUnitsManager()
                 .setSupportDP(false)
-                .setSupportSubunits(Subunits.PT);
+                .setSupportSP(false)
+                .setSupportSubunits(Subunits.PT)
+                .setSupportSubunits(Subunits.MM);
     }
 }
