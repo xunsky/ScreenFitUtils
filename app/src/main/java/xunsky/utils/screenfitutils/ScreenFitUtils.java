@@ -11,12 +11,12 @@ public class ScreenFitUtils {
          *
          * 仅适配360*640的设计稿
          * 不影响dp的使用
-         * 需要适配的布局使用pt单位
+         * 需要适配的布局使用mm单位
          */
         AutoSizeConfig.getInstance()
                 .getUnitsManager()
                 .setSupportDP(false)
                 .setSupportSP(false)
-                .setSupportSubunits(Subunits.PT);
+                .setSupportSubunits(Subunits.MM);
     }
 }
