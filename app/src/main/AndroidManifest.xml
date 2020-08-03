@@ -5,7 +5,7 @@
     <application>
         <provider
             android:exported="false"
-            android:authorities="${applicationId}.provider"
+            android:authorities="${applicationId}.screenfit.autoinit.provider"
             android:name=".AutoInitScreenFitUtilsProvider"/>
         <!-- 适配的分辨率为360*640 -->
         <meta-data
